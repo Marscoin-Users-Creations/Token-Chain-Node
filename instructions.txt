@@ -12,15 +12,23 @@ DEL      <==> C++ func = 0 -- set the value of a function from it's value to 0
 
 Mathematics :
 
-ADD      <==> C++ +
-REMV     <==> C++ -
-MULTIP   <==> C++ *
-DIVIDE   <==> C++ /
+ADD      <==> C++ + -- something + something
+REMV     <==> C++ - -- something - something
+MULTIP   <==> C++ * -- something * something
+DIVIDE   <==> C++ / -- something / something
+EXPO     <==> C++ ^ -- something ^ something
 
-SMALR    <==> C++ <
-BIGR     <==> C++ >
+SMALR    <==> C++ < -- something smaller than something
+BIGR     <==> C++ > -- something bigger than something
 
 VEQUAL   <==> C++ = -- variable = something
+
+PEQUAL   <==> C++ += -- variable += something, variable = variable + something
+REQUAL   <==> C++ -= -- variable -= something, variable = variable - something
+DEQUAL   <==> C++ /= -- variable /= something, variable = variable / something
+MEQUAL   <==> C++ *= -- variable *= something, variable = variable * something
+EEQUAL   <==> C++ ^= -- variable ^= something, variable = variable ^ something
+
 ISEQUAL  <==> C++ == -- in the instruction if something equal to something
 NEQUAL   <==> C++ != -- in the instruction if something not equal to something
 
