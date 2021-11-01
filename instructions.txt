@@ -1,7 +1,8 @@
 Functions :
 
-FUNC     <==> C++ int / double / float / string
-IF       <==> C++ if
+FUNC     <==> C++ int / double / float / string -- create a new function
+IF       <==> C++ if -- if something then
+FOR      <==> C++ for -- for something then
 ELSE     <==> C++ else
 THEN     <==> C++ {
 END      <==> C++ }
@@ -15,15 +16,18 @@ REMV     <==> C++ -
 MULTIP   <==> C++ *
 DIVIDE   <==> C++ /
 
-SMALLER  <==> C++ <
-BIGGER   <==> C++ >
+SMALR    <==> C++ <
+BIGR     <==> C++ >
 
-VEQUAL   <==> C++ =
-ISEQUAL  <==> C++ ==
-NOEQUAL  <==> C++ !=
+VEQUAL   <==> C++ =  -- variable = something
+ISEQUAL  <==> C++ == -- in the instruction if something equal to something
+NEQUAL   <==> C++ != -- in the instruction if something not equal to something
 
 
 Internet :
 
-SEND()   <==> C++ socket.socket.send("datas to send");
+CNCT()   <==> C++ socket.socket.connect("server address");
 RECV()   <==> C++ socket.socket.recv("receive from");
+SEND()   <==> C++ socket.socket.send("datas to send");
+
+DWLD()   <==> C++ socket.socket.connect("server address"); socket.socket.send("{'datas': 'dwnld', 'options': {'command': 'download command', 'hash': 'optional'}}") INTERNET.recvdDatas = socket.socket.recv() -- download a specific file with some options
