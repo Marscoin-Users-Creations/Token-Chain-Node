@@ -10,6 +10,7 @@ END      <==> C++ } -- end of an if or for
 
 DEL      <==> C++ func = 0 -- set the value of a function from it's value to 0
 
+
 Mathematics :
 
 ADD      <==> C++ + -- something + something
@@ -40,3 +41,10 @@ RECV()   <==> C++ socket.socket.recv("receive from");
 SEND()   <==> C++ socket.socket.send("datas to send");
 
 DWLD()   <==> C++ socket.socket.connect("server address"); socket.socket.send("{'datas': 'dwld', 'options': {'command': 'download command', 'hash': 'optional'}}") INTERNET.recvdDatas = socket.socket.recv() -- download a specific file with some options
+
+
+Wallet :
+
+ATOK()  <==> Ask tokens to a specific address
+STOK()  <==> Send tokens to a specific address
+SMSG()  <==> Send message to a specific address
