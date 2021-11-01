@@ -1,0 +1,29 @@
+Functions :
+
+FUNC     <==> C++ int / double / float / string
+IF       <==> C++ if
+ELSE     <==> C++ else
+THEN     <==> C++ {
+END      <==> C++ }
+;        <==> C++ ; ( end of a function )
+
+
+Mathematics :
+
+ADD      <==> C++ +
+REMV     <==> C++ -
+MULTIP   <==> C++ *
+DIVIDE   <==> C++ /
+
+SMALLER  <==> C++ <
+BIGGER   <==> C++ >
+
+VEQUAL   <==> C++ =
+ISEQUAL  <==> C++ ==
+NOEQUAL  <==> C++ !=
+
+
+Internet :
+
+SEND()   <==> C++ socket.socket.send("datas to send");
+RECV()   <==> C++ socket.socket.recv("receive from");
