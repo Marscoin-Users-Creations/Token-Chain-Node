@@ -1,6 +1,6 @@
 Functions :
 
-FUNC      <==> C++ int / double / float / string -- create a new function with the value specified
+FUNC name <==> C++ int / double / float / string -- create a new function with the value specified
 IF()      <==> C++ if -- if something then
 FOR()     <==> C++ for -- for something then
 ELSE      <==> C++ else -- if something else
@@ -32,7 +32,6 @@ EEQUAL()  <==> C++ ^= -- variable ^= something, variable = variable ^ something
 
 ISEQUAL() <==> C++ == -- in the instruction if something equal to something
 NEQUAL()  <==> C++ != -- in the instruction if something not equal to something
-
 
 Internet :
 
